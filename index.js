@@ -1,4 +1,4 @@
-var express =  require('express');
+var express = require('express');
 var cors = require('cors');
 
 const app = express();
@@ -7,7 +7,7 @@ app.use(cors());
 app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(request, response) {
-  response.send('Hello World!')
+  response.send('Hello API World!')
 });
 
 app.get('/users', function(req, res) {
