@@ -1,2 +1,4 @@
-# js-dev-env-demo-api
-API for JS Dev Env Demo in Pluralsight course
+heroku login
+heroku create
+heroku git:remote -a <given-name-here>
+git push heroku master
